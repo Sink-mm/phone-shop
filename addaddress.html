@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/addaddress.css"/>
+		<script src="js/PCASClass.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<div><img class="return" src="img/17close.png"></div>
+			<div><img class="line" src="img/Line.png"></div>
+			<span class="add_address">添加收货地址</span>
+			<div class="head3"><img class="path" src="img/Path.png"></div>
+		</header>
+		<div class="content">
+			<div class="top">
+				<input id="name" placeholder="姓名" />
+				<input id="phone" placeholder="电话" />
+			</div>
+			<div class="address">
+				<select style="width: 40vw;" name="province"></select>
+				<select style="width: 30vw;" name="city"></select>
+				<select style="width: 30vw;" name="area"></select>
+			</div>
+			<input id="specific" placeholder="请填写详细地址" />
+		</div>
+		<div class="footer">
+			保存
+		</div>
+		
+		<script language="javascript" defer>
+			new PCAS("province", "city", "area", "山东省", "青岛市", "市北区");
+		</script>
+	</body>
+</html>

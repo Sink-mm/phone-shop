@@ -1,0 +1,155 @@
+header {
+	width: 100vw;
+	height: 9vw;
+	margin: 2vw auto;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.return {
+	width: 6vw;
+	height: 5vw;
+	margin-top: 1vw;
+	margin-left: 5vw;
+}
+
+.line {
+	width: 0.3vw;
+	height: 6vw;
+	margin-top: 0.5vw;
+	margin-left: 3vw;
+}
+
+.path {
+	width: 1vw;
+	height: 4vw;
+
+}
+
+.head3 {
+	margin-top: 1.5vw;
+	margin-left: 53vw;
+}
+
+.add_address {
+	width: 20vw;
+	height: 6vw;
+	font-size: 5vw;
+	color: #101010;
+	margin-left: 3vw;
+}
+
+.content {
+	width: 100vw;
+	height: 120vw;
+	background-color: #F8F8F8;
+}
+
+.content .top {
+	width: 100vw;
+	height: 11vw;
+	background-color: #aaffff;
+	display: flex;
+	font-size: 3vw;
+}
+
+.content .top .name {
+	width: 46vw;
+	height: 11vw;
+	background-color: #ffaa00;
+	border-right: 1px solid #EEEEEE;
+	line-height: 11vw;
+	box-sizing: border-box;
+	padding-left: 5vw;
+	font-size: 3vw;
+}
+
+.content .top .phone {
+	width: 54vw;
+	height: 11vw;
+	line-height: 11vw;
+	box-sizing: border-box;
+	padding-left: 3vw;
+	font-size: 3vw;
+}
+
+.address {
+	width: 100vw;
+	height: 11vw;
+	border-bottom: 1px solid #EEEEEE;
+	background-color: #aaaaff;
+	display: flex;
+	justify-content: space-around;
+	font-size: 3vw;
+	border-top: 1px solid #EEEEEE;
+}
+
+.specific {
+	width: 100vw;
+	height: 11vw;
+	border-bottom: 1px solid #EEEEEE;
+	background-color: #aaaaff;
+}
+
+.footer {
+	width: 100vw;
+	height: 12vw;
+	background-color: #ff2732;
+	font-size: 4vw;
+	line-height: 12vw;
+	text-align: center;
+	color: #fff;
+}
+
+#name {
+	width: 46vw;
+	height: 11vw;
+	outline-style: none;
+	border: 1px solid #ffffff;
+	border-right: 1px solid #EEEEEE;
+	padding: 3px 0px 3px 15px;
+	font-size: 16px;
+	box-sizing: border-box;
+	margin-bottom: 17px;
+	background-color: #ffffff;
+}
+
+#phone {
+	width: 54vw;
+	height: 11vw;
+	outline-style: none;
+	border: 1px solid #ffffff;
+	padding: 3px 0px 3px 15px;
+	font-size: 16px;
+	box-sizing: border-box;
+	margin-bottom: 17px;
+	background-color: #ffffff;
+}
+
+#specific {
+	width: 100vw;
+	height: 11vw;
+	outline-style: none;
+	border: 1px solid #ffffff;
+	padding: 3px 0px 3px 15px;
+	font-size: 16px;
+	box-sizing: border-box;
+	margin-bottom: 17px;
+	background-color: #ffffff;
+}
+
+.address>select {
+	height: 11vw;
+	outline-style: none;
+	border: 1px solid #ffffff;
+}
+
+input::-webkit-input-placeholder {
+	font-size: 3vw;
+}
+
+input::-moz-placeholder {
+	font-size: 3vw;
+}
